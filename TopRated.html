@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Rated</title>
+</head>
+<body>
+    <h1 class="logo">Bookly</h1>
+    <nav>
+        <a href="pages/home-page/Home.html" class="home">Home</a>
+        <!-- <a href="Top-Rated.html" class="top-rated">Top Rated</a> -->
+        <a href="my-books.html" class="my-books">My Books</a>
+        <a href="Add-Book.html" class="add-book"> Add Book </a>
+        <a href="Log-in.html" class="log-in"> Log in</a>
+        <a href="Log-in.html" class="log-out"><button>Log out</button></a>
+        <div class="search">
+                <label for="searchbutton"> Search</label>
+        <input type="text" id="searchbutton" placeholder="Enter book or author name">
+        <select id="pageLinks" onchange="window.location.href=this.value;">
+                <option value="#" selected disabled id="1">Categories</option>
+                <option value="pages/historical-page/Historical-Books.html">Historical</option>
+                <option value="pages/philosophical-pabge/Philosophical-Books.html">Philosophical </option>
+                <option value="pages/Romance-page/Romantic-Books.html">Romantic </option>
+                <option value="pages/Horro-page/Horror.html">Horror </option>
+                <option value="pages/Fantasy-page/Fantasy.html">Fantasy </option>
+                <option value="pages/Drama-page/Drama.html">Drama</option>
+                <option value="pages/Poetry-page/Poetry.html">Poetry </option>
+                <option value="pages/Myster-and-Crime-page/Mystery-and-Crime.html">Crime and Mystery Books</option>
+        </select>
+</div>
+</nav>
+    <content>
+        <!-- Book-1 -->
+        <figure id="The-Republic-plato" class="figure2-philosophical-page">
+         <img src="The-Republic-plato.jpg" alt="The Republic" width="200" height="200"></a>
+        <div class="button">
+            <p id="element2-philosophical-page">
+                    Available
+                </p>
+                <button id="borrow-button2-philosophical-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+        </div>
+        </figure> 
+        <figcaption class="fig-caption" >
+            <div class="description The-Republic-plato" id="D-The-Republic-plato">
+                <p>
+                        <!-- from the other pages -->
+                </p>
+            </div>
+            <div class="author" id="">
+                <h4></h4>
+            </div>
+        </figcaption>
+        <!-- Book-2 -->
+        <figure id="The-Prince-Niccolò-Machiavelli" class="figure3-philosophical-page">
+          <img src="The Prince.jpg" alt="The Prince" width="200" height="200">
+        <div class="button">
+            <p id="element2-philosophical-page">
+                    Available
+                </p>
+                <button id="borrow-button2-philosophical-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+        </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description The-Prince-Niccolò-Machiavelli" id="D-The-Prince-Niccolò-Machiavelli">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="Niccolò Machiavelli">
+                <h4>Niccolò Machiavelli</h4>
+            </div>
+        </figcaption>
+        <!-- Book-3 -->
+        <figure id="And-Then-There-Were-None-Crime-and-Mystry">
+            <img src="And Then There Were None.jpg" alt="And Then There Were None" width="200px" height="200px">
+            <div class="button">
+                <p id="element1-Crime-page">
+                        Available       
+                </p>
+                    <button id="borrow-button1-Crime-page">
+                        Borrow 
+                    </button>
+                    <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+            </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description And-Then-There-Were-None-Crime-and-Mystry" id="D-And-Then-There-Were-None-Crime-and-Mystry">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="Agatha Christie">
+                <h4>Agatha Christie</h4>
+            </div>
+        </figcaption>
+        <!-- Book-4 -->
+        <figure id="Angels-&-Demons-Crime-and-Mystry">
+            <img src="Angels & Demons.jpg" alt="Angels & Demons" width="200px" height="200px"> </a>
+            <div class="button">
+                <p id="element2-Crime-page">
+                        Available                
+                    </p>
+                    <button id="borrow-button2-Crime-page">
+                        Borrow
+                    </button>
+                    <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+            </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description Angels-&-Demons-Crime-and-Mystry" id="D-Angels-&-Demons-Crime-and-Mystry">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id=" Dan Brown">
+                <h4> Dan Brown</h4>
+            </div>
+        </figcaption>
+        <!-- Book-5 -->
+        <figure id="dad-hate" class="figure1-romantic-page">
+             <img src="أبي الذي أكره.jpg" width="250" height="350" alt="أبي الذي أكره"></a>
+            <div class="button">
+                <p id="element1-romantic-page"> 
+                    Available               
+                </p>
+                <button id="borrow-button1-romantic-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description dad-hate" id="D-dad-hate">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id=" Imad Rashad Othman">
+                <h4> Imad Rashad Othman</h4>
+            </div>
+        </figcaption>
+        <!-- Book-6 -->
+        <figure id="acourt-of-throns" class="figure2-romantic-page">
+           <img src="A Court of Thorns and Roses.jpg" width="250" height="350" alt="acourt of throns and roses book">
+            <div class="button">
+                <p id="element2-romantic-page"> 
+                    Available                
+                </p>
+                <button id="borrow-button2-romantic-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description acourt-of-throns" id="D-acourt-of-throns">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="Sarah J. Maas">
+                <h4>Sarah J. Maas</h4>
+            </div>
+        </figcaption>
+        <!-- Book-7 -->
+        <figure id="My-Throat-an-Open" class="figure1-Horror-page">
+             <img src="My Throat an Open Grave.jpg" width="250" height="350" alt="My Throat an Open Grave Books"> 
+            <div class="button">
+                <p id="element1-Horror-page"> 
+                    Available                
+                </p>
+                <button id="borrow-button1-Horror-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description My-Throat-an-Open" id="D-My-Throat-an-Open">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="Tori Bovalino">
+                <h4> Tori Bovalino</h4>
+            </div>
+        </figcaption>
+        <!-- Book-8 -->
+        <figure id="Antichrist" class="figure2-Horror-page">
+            <img src="Antichrist.jpg" width="250" height="350" alt="Antichrist book"> 
+            <div class="button">
+                <p id="element2-Horror-page"> 
+                    Available                </p>
+                <button id="borrow-button2-Horror-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description Antichrist" id="D-Antichrist">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="D.Ahmed Khaled Mustafa ">
+                <h4>D.Ahmed Khaled Mustafa </h4>
+            </div>
+        </figcaption>
+        <!-- Book-9 -->
+        <figure id="The-Buied-Giant-Fantasy">
+            <img src="The_Buried.png" alt="The Buried Giant" width="250px" height="100%">
+            <div class="button">
+                <p id="element1-Fantasy-page"> 
+                    Available               
+                </p>
+                <button id="borrow-button1-Horror-page">
+                    Borrow
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description The-Buied-Giant-Fantasy" id="D-The-Buied-Giant-Fantasy">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id=" Kazuo Ishiguro ">
+                <h4> Kazuo Ishiguro </h4>
+            </div>
+        </figcaption>
+        <!-- Book-10 -->
+        <figure id="john-adams-david-mccullough" class="figure1-historical-page">
+            <img src="John Adams.jpg" alt="John Adams" width="200" height="200">
+              </a>
+            <div class="button">
+                <p id="element1-historical-page"> 
+                    Available                
+                </p>
+                <button id="borrow-button1-historical-page">
+                    Borrow 
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description john-adams-david-mccullough" id="D-john-adams-david-mccullough">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="David McCullough">
+                <h4>David McCullough</h4>
+            </div>
+        </figcaption>
+        <!-- Book-11 -->
+        <figure id="The-Rise-and-Fall-of-the-Third-Reich-A-History-of-Nazi-Germany-william-l-shirer" class="figure2-historical-page">
+            <img src="The Rise and Fall of the Third Reich.jpg" alt="The Rise and Fall of the Third Reich: A History of Nazi Germany" width="200" height="200">
+            <div class="button">
+                <p id="element2-historical-page"> 
+                    Available
+                </p>
+                <button id="borrow-button2-historical-page">
+                    Borrow Element
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description The Rise and Fall of the Third Reich " id="D-The Rise and Fall of the Third Reich">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id=" William L. Shirer">
+                <h4> William L. Shirer</h4>
+            </div>
+        </figcaption>
+        <!-- Book-12 -->
+        <figure id="The-lion-the-Withc-and-the-Wardrobe-Fantasy">
+            <img src="The_Chronicles_of_Narnia_-_The_Lion,_the_Witch_and_the_Wardrobe.jpg" alt="The Lion, the Witch, and the Wardrobe" width="250px" height="200%">
+            <div class="button">
+                <p id="element2-Fantasy-page"> 
+                    Available
+                </p>
+                <button id="borrow-button2-Horror-page">
+                    Borrow Element
+                </button>
+                <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+
+             </div>
+        </figure>
+        <figcaption class="fig-caption" >
+            <div class="description The-lion-the-Withc-and-the-Wardrobe-Fantasy" id="D-The-lion-the-Withc-and-the-Wardrobe-Fantasy">
+                <p>
+
+                </p>
+            </div>
+            <div class="author" id="Harry Gregson-Williams">
+                <h4>Harry Gregson-Williams</h4>
+            </div>
+        </figcaption>
+    </content>
+    
+</body>
+</html>
